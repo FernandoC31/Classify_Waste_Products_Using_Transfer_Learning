@@ -1,0 +1,144 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+    background-color: #F6FFE9;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23A6E9EE' points='120 120 60 120 90 90 120 60 120 0 120 0 60 60 0 0 0 60 30 90 60 120 120 120 '/%3E%3C/svg%3E");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+
+.container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+
+.form input[type="file"] {
+    display: none; 
+}
+
+.file-label {
+    display: inline-block;
+    background-color: #0071e3;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.file-label span {
+    margin-left: 8px; 
+}
+
+
+.file-label:hover {
+    background-color: #2ec990;
+    box-shadow: 0px 15px 20px #2ec990;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.file-label:active {
+    transform: translateY(-1px);
+}
+
+.file-label::before {
+    content: "\1F4C2";
+    font-size: 1.5rem;
+}
+
+.submit-btn {
+    background-color: #0071e3;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+}
+
+.submit-btn:hover {
+    background-color: #2ec990;
+    box-shadow: 0px 15px 20px #2ec990;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.submit-btn:active {
+    transform: translateY(-1px);
+}
+
+.result h2 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.image-preview {
+    margin-top: 20px;
+    text-align: center;
+}
+.image-preview img {
+    max-width: 100%;
+    max-height: 300px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+.result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.footer {
+    text-align: center; 
+    margin-top: 20px; 
+    font-size: 0.9em; 
+    color: #000000; 
+    padding: 10px 0; 
+    width: 100%;
+    position: relative; 
+}
