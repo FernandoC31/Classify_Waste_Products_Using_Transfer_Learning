@@ -1,0 +1,4 @@
+flask
+Pillow
+tensorflow==2.18
+gunicorn
